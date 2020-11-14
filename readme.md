@@ -16,6 +16,7 @@
 [![codeclimate][codeclimate-badge]][codeclimate-url]
 
 Material dropdown with consistent behaviour on iOS and Android
+This fork contain a fix for the dropdown icon
 
 ![example][example-url]
 
