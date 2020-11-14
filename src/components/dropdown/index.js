@@ -553,11 +553,11 @@ export default class Dropdown extends PureComponent {
         let triangleStyle = { backgroundColor };
 
         return (
-            <View style={styles.accessory}>
-                <View style={styles.triangleContainer}>
-                    <View style={[styles.triangle, triangleStyle]} />
-                </View>
-            </View>
+            <TextInput.Icon
+              style={triangleStyle}
+              color={this.props.iconColor ? this.props.iconColor : '#000'}
+              name={this.props.icon ? this.props.icon : 'chevron-down'}
+            />
         );
     }
 

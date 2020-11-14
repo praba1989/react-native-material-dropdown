@@ -54,6 +54,8 @@ class Example extends Component {
 
     return (
       <Dropdown
+        icon='chevron-down'
+        iconColor='#E1E1E1'
         label='Favorite Fruit'
         data={data}
       />
@@ -68,11 +70,13 @@ class Example extends Component {
 :----------------- |:--------------------------------------------- | --------:|:------------------
  label             | Text field label text                         |   String | -
  error             | Text field error text                         |   String | -
+ icon              | Text field right icon                         |   String | chevron-down
  animationDuration | Text field animation duration in ms           |   Number | 225
  fontSize          | Text field font size                          |   Number | 16
  labelFontSize     | Text field label font size                    |   Number | 12
  baseColor         | Text field base color                         |   String | rgba(0, 0, 0, .38)
  textColor         | Text field text color                         |   String | rgba(0, 0, 0, .87)
+ iconColor         | Text field icon color                         |   String | rgba(0, 0, 0, 1)
  itemColor         | Dropdown item text color (inactive item)      |   String | rgba(0, 0, 0, .54)
  selectedItemColor | Dropdown item text color (active item)        |   String | rgba(0, 0, 0, .87)
  disabledItemColor | Dropdown item text color (disabled item)      |   String | rgba(0, 0, 0, .38)
@@ -114,7 +118,7 @@ Other [TextField][textfield], [TextInput][textinput] and [TouchableWithoutFeedba
 ## Example
 
 ```bash
-git clone https://github.com/n4kz/react-native-material-dropdown
+git clone https://github.com/mdslab87/react-native-material-dropdown
 cd react-native-material-dropdown/example
 npm install
 npm run ios # or npm run android
