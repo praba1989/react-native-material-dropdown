@@ -33,14 +33,14 @@ This fork contain a fix for the dropdown icon
 ## Installation
 
 ```bash
-npm install --save react-native-material-dropdown
+npm install --save react-native-material-dropdown-v2-fixed
 ```
 
 ## Usage
 
 ```javascript
 import React, { Component } from 'react';
-import { Dropdown } from 'react-native-material-dropdown';
+import { Dropdown } from 'react-native-material-dropdown-v2-fixed';
 
 class Example extends Component {
   render() {
