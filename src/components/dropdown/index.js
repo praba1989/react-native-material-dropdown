@@ -505,15 +505,16 @@ export default class Dropdown extends PureComponent {
             String(title);
 
         return (
-            <TextInput
-                style={{backgroundColor: "transparent", marginBottom: 16}}
-                label=''
-                {...props}
-                value={title}
-                editable={false}
-                onChangeText={undefined}
-                right={renderAccessory()}
-            />
+            // <TextInput
+            //     style={{backgroundColor: "transparent", marginBottom: 0, color:"white",}}
+            //     label=''
+            //     {...props}
+            //     value={title}
+            //     editable={false}
+            //     onChangeText={undefined}
+            //     right={renderAccessory()}
+            // />
+            <Text style={{color:"white", paddingLeft: 5}}>{title}</Text>
         );
     }
 
